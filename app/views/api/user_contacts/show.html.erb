@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user_contact.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user_contact.email %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @user_contact.address %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @user_contact.gender %>
+</p>
+
+<p>
+  <strong>Profile pic:</strong>
+  <%= @user_contact.profile_pic %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @user_contact.phone_id %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @user_contact.product_id %>
+</p>
+
+<%= link_to 'Edit', edit_user_contact_path(@user_contact) %> |
+<%= link_to 'Back', user_contacts_path %>
