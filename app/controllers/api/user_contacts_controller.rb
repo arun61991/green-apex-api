@@ -59,7 +59,7 @@ class Api::UserContactsController < ApplicationController
       product_id: product.id,
       product_name: product.product_name,
       product_image: product.product_image,
-      product_price: product.product_price
+      product_price: product.product_price.to_f
     }
   end
 
